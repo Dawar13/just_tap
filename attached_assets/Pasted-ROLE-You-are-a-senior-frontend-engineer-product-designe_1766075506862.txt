@@ -1,0 +1,219 @@
+ROLE
+
+You are a senior frontend engineer + product designer working inside an existing Next.js 14 App Router codebase with Tailwind CSS already configured.
+
+Your job is to recreate the provided landing page UI EXACTLY, with pixel-level visual fidelity, using React + Tailwind.
+
+This is NOT a redesign.
+This is a faithful UI clone with content swapped for a new product.
+
+CONTEXT: EXISTING CODEBASE (IMPORTANT)
+
+The project structure already exists:
+
+app/
+  ├─ layout.tsx
+  ├─ page.tsx
+  ├─ globals.css
+public/
+
+Constraints:
+
+✅ App Router (not Pages Router)
+
+✅ Tailwind CSS already installed
+
+❌ Do NOT change config files
+
+❌ Do NOT explain concepts
+
+❌ Do NOT output markdown
+
+❌ Do NOT include commentary
+
+OBJECTIVE
+Build the full landing page UI shown in the reference images by:
+
+Generating React + Tailwind code
+
+Writing it directly for this codebase
+
+Using clean component structure
+
+Ensuring it renders immediately on localhost
+
+OUTPUT REQUIREMENTS (CRITICAL)
+You MUST output code in this exact format:
+FILE: app/page.tsx
+<full code here>
+
+FILE: components/Navbar.tsx
+<code>
+
+FILE: components/Hero.tsx
+<code>
+
+FILE: components/Metrics.tsx
+<code>
+
+FILE: components/Features.tsx
+<code>
+
+FILE: components/Partners.tsx
+<code>
+
+FILE: components/Testimonial.tsx
+<code>
+
+FILE: components/Footer.tsx
+<code>
+
+
+❌ Do NOT skip files
+❌ Do NOT inline everything into one file
+❌ Do NOT output explanations
+
+DESIGN FIDELITY (NON-NEGOTIABLE)
+
+The UI must match the reference landing page in:
+
+1️⃣ Layout
+
+Desktop-first
+
+Same section order
+
+Same left/right splits
+
+Same alignment
+
+Same card stacking
+
+Same visual hierarchy
+
+2️⃣ Color Palette
+
+Primary background: near-black
+
+Accent color: bold orange
+
+Text: white + muted gray
+
+CTA buttons: orange with rounded pill shape
+
+3️⃣ Typography
+
+Bold, large uppercase hero headings
+
+Tight letter spacing
+
+Clear size hierarchy
+
+Numbers are extra-bold
+
+Use Tailwind defaults only (no custom fonts)
+
+4️⃣ Components to Replicate
+
+Navbar
+
+Hero with stacked card visuals
+
+Metrics cards (3-column)
+
+Features list + analytics card
+
+Large NFC card visual section
+
+Partner/integration grid
+
+Testimonial carousel (static version is fine)
+
+Footer with CTA
+
+PRODUCT CONTENT (REPLACE TEXT ONLY)
+Brand
+
+Name: Just Tap
+
+Headline (Hero)
+TURN EVERY TAP
+INTO A 5★ REVIEW
+
+Subheading
+NFC cards that instantly open your Google Review page or digital visiting card.
+
+CTA Buttons
+
+Get Started →
+
+Learn More →
+
+Metrics
+
+500K+ taps generated
+
+98% review completion rate
+
+24K+ businesses onboarded
+
+Features
+
+One-tap Google reviews
+
+Digital visiting card
+
+Real-time analytics
+
+Custom branding
+
+Target Users
+
+Local businesses, cafés, clinics, salons, gyms, restaurants
+
+IMAGES & VISUALS
+
+Use placeholder divs for card mockups
+
+Match size, rotation, shadows
+
+Orange card on top
+
+Perspective stacking
+
+Smooth hover animation (optional but clean)
+
+TECHNICAL RULES
+
+Use functional components
+
+Use Tailwind utility classes only
+
+No external UI libraries
+
+No inline styles
+
+No CSS files beyond globals.css
+
+Code must compile without errors
+
+FINAL CHECK BEFORE OUTPUT
+
+Before responding, internally verify:
+
+✅ UI matches reference ≥95%
+
+✅ Code is App Router compatible
+
+✅ All components are imported correctly
+
+✅ Page renders immediately on localhost:3000
+
+✅ No placeholder text like “lorem ipsum”
+
+FINAL INSTRUCTION
+
+Output ONLY code files.
+No explanations.
+No summaries.
+No markdown.
