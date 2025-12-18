@@ -94,7 +94,7 @@ export function Hero() {
                 <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent pointer-events-none" />
                 
                 <div className="flex justify-between items-start">
-                  <div className="text-2xl font-black text-white tracking-tighter">
+                  <div className="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-br from-white via-white/90 to-black/30 tracking-tighter drop-shadow-lg filter">
                     just<br/>tap.
                   </div>
                   <div className="w-10 h-10 border-2 border-white/20 rounded-full flex items-center justify-center">
