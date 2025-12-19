@@ -2,79 +2,79 @@ import { Button } from "@/components/ui/button";
 
 export function Partners() {
   return (
-    <section className="py-24 bg-black" id="partners">
+    <section className="py-16 lg:py-24 bg-black" id="partners">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-12 gap-16">
-          
+
           {/* Left Text */}
           <div className="lg:col-span-5">
             <p className="text-sm font-bold text-muted-foreground uppercase tracking-wider mb-2">Our Trusted Partners</p>
             <h2 className="text-3xl md:text-4xl font-black uppercase text-white mb-8">
-              Real-Time Financial <br/>
+              Real-Time Financial <br />
               Monitoring
             </h2>
 
             <div className="mb-12">
-               <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mb-4">
-                  <div className="text-primary font-black">98%</div>
-               </div>
-               <h3 className="text-6xl font-black text-white mb-4">98<span className="text-3xl align-top">%</span></h3>
-               <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
-                 Partners are happy with our collaboration, noting increased efficiency and mutual growth since joining us.
-               </p>
+              <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mb-4">
+                <div className="text-primary font-black">98%</div>
+              </div>
+              <h3 className="text-6xl font-black text-white mb-4">98<span className="text-3xl align-top">%</span></h3>
+              <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
+                Partners are happy with our collaboration, noting increased efficiency and mutual growth since joining us.
+              </p>
             </div>
           </div>
 
           {/* Right Grid */}
           <div className="lg:col-span-7">
-             <div className="flex flex-col gap-6">
-                <div className="text-right mb-4">
-                  <p className="text-sm text-zinc-500 max-w-xs ml-auto leading-relaxed">
-                    Just like us, Just Tap believes in building long-term relationships with clients. Their focus on customer service aligns perfectly with our own value.
-                  </p>
+            <div className="flex flex-col gap-6">
+              <div className="text-right mb-4">
+                <p className="text-sm text-zinc-500 max-w-xs ml-auto leading-relaxed">
+                  Just like us, Just Tap believes in building long-term relationships with clients. Their focus on customer service aligns perfectly with our own value.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-2 gap-4">
+                {/* Partner 1 - Apple Pay Style */}
+                <div className="bg-primary aspect-square rounded-[2rem] flex items-center justify-center p-8 hover:scale-[1.02] transition-transform">
+                  <div className="flex items-center gap-2 text-white">
+                    <AppleIcon className="w-8 h-8" />
+                    <span className="font-bold text-2xl">Pay</span>
+                  </div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-4">
-                   {/* Partner 1 - Apple Pay Style */}
-                   <div className="bg-primary aspect-square rounded-[2rem] flex items-center justify-center p-8 hover:scale-[1.02] transition-transform">
-                      <div className="flex items-center gap-2 text-white">
-                         <AppleIcon className="w-8 h-8" />
-                         <span className="font-bold text-2xl">Pay</span>
-                      </div>
-                   </div>
-
-                   {/* Partner 2 - Paypal Style */}
-                   <div className="bg-primary aspect-square rounded-[2rem] flex items-center justify-center p-8 hover:scale-[1.02] transition-transform">
-                      <div className="text-white">
-                         <PaypalIcon className="w-12 h-12" />
-                      </div>
-                   </div>
-
-                   {/* Partner 3 - Stripe Style (Abstract) */}
-                   <div className="bg-primary aspect-square rounded-[2rem] flex items-center justify-center p-8 hover:scale-[1.02] transition-transform">
-                      <div className="text-white font-black text-4xl italic">S</div>
-                   </div>
-
-                   {/* Partner 4 - Google Pay Style */}
-                   <div className="bg-primary aspect-square rounded-[2rem] flex items-center justify-center p-8 hover:scale-[1.02] transition-transform">
-                      <div className="flex items-center gap-2 text-white">
-                         <span className="font-bold text-2xl">G Pay</span>
-                      </div>
-                   </div>
-
-                   {/* CTA Block */}
-                   <div className="absolute right-6 bottom-[-100px] hidden lg:block">
-                      <div className="bg-zinc-900/50 p-6 rounded-xl backdrop-blur-sm border border-white/5 max-w-[200px]">
-                         <p className="text-xs font-bold text-white uppercase mb-4">
-                           Creating Impactful Solutions and Lasting Partnerships
-                         </p>
-                         <Button size="sm" variant="secondary" className="rounded-full text-xs">
-                           Join Now Together
-                         </Button>
-                      </div>
-                   </div>
+                {/* Partner 2 - Paypal Style */}
+                <div className="bg-primary aspect-square rounded-[2rem] flex items-center justify-center p-8 hover:scale-[1.02] transition-transform">
+                  <div className="text-white">
+                    <PaypalIcon className="w-12 h-12" />
+                  </div>
                 </div>
-             </div>
+
+                {/* Partner 3 - Stripe Style (Abstract) */}
+                <div className="bg-primary aspect-square rounded-[2rem] flex items-center justify-center p-8 hover:scale-[1.02] transition-transform">
+                  <div className="text-white font-black text-4xl italic">S</div>
+                </div>
+
+                {/* Partner 4 - Google Pay Style */}
+                <div className="bg-primary aspect-square rounded-[2rem] flex items-center justify-center p-8 hover:scale-[1.02] transition-transform">
+                  <div className="flex items-center gap-2 text-white">
+                    <span className="font-bold text-2xl">G Pay</span>
+                  </div>
+                </div>
+
+                {/* CTA Block */}
+                <div className="absolute right-6 bottom-[-100px] hidden lg:block">
+                  <div className="bg-zinc-900/50 p-6 rounded-xl backdrop-blur-sm border border-white/5 max-w-[200px]">
+                    <p className="text-xs font-bold text-white uppercase mb-4">
+                      Creating Impactful Solutions and Lasting Partnerships
+                    </p>
+                    <Button size="sm" variant="secondary" className="rounded-full text-xs">
+                      Join Now Together
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>
@@ -94,7 +94,7 @@ function AppleIcon({ className }: { className?: string }) {
 function PaypalIcon({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" className={className}>
-       <path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944.901C5.026.382 5.474 0 5.998 0h7.46c2.57 0 4.578.543 5.69 1.81 1.01.96 1.387 2.29 1.07 4.107-.21 1.4-.764 2.613-1.75 3.69-1.375 1.5-3.52 2.433-6.215 2.433h-1.2l-.65 4.14-.14.902c-.06.417.26.793.682.793h4.08c.55 0 .983.47.886 1.01l-.634 3.73a.634.634 0 0 1-.625.526h-4.32a.64.64 0 0 1-.632-.738l.41-2.482.417-2.593z" />
+      <path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944.901C5.026.382 5.474 0 5.998 0h7.46c2.57 0 4.578.543 5.69 1.81 1.01.96 1.387 2.29 1.07 4.107-.21 1.4-.764 2.613-1.75 3.69-1.375 1.5-3.52 2.433-6.215 2.433h-1.2l-.65 4.14-.14.902c-.06.417.26.793.682.793h4.08c.55 0 .983.47.886 1.01l-.634 3.73a.634.634 0 0 1-.625.526h-4.32a.64.64 0 0 1-.632-.738l.41-2.482.417-2.593z" />
     </svg>
   );
 }
